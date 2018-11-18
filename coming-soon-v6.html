@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+
+    <title>Main Theme - Mirai Demo</title>
+    <meta name="description" content="Mirai - Modern Responive Coming Soon Page">
+    <meta name="keywords" content="Mirai template, coming soon page, template html5, landing page template, under construction page">
+    <meta name="author" content="ThemeImperia">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="path/to/image.jpg">
+    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+    <!-- Template Basic Images End -->
+
+    <!-- Load Custom CSS Start -->
+    <link rel="stylesheet" href="css/fonts.min.css">
+    <link rel="stylesheet" href="css/bootstrap-custom.css">
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/photoswipe.css">
+    <link rel="stylesheet" href="css/default-skin/default-skin.css">
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <!-- Custom Browsers Color Start -->
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#000">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#000">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#000">
+    <!-- Custom Browsers Color End -->
+
+    <!-- Modernizr -->
+    <script src="js/modernizr.custom.js"></script>
+
+</head>
+
+<!--
+    Name: Mirai
+    Description: Modern Responsive Coming Soon Page
+    Version: 1.0
+    Author: ThemeImperia
+    Email: info@themeimperia.com
+
+    TABLE OF CONTENTS:
+    1. Loading
+    2. Subscribe Form
+    3. Main Container
+    4. More Info Container
+        4.1 Logo Section
+        4.2 About Section
+        4.3 Stats Section
+        4.4 Features Section
+        4.5 Quotation Section
+        4.6 Portfolio Section
+        4.7 Contact Section
+        4.8 Google Map Section
+        4.9 Footer Section
+-->
+
+
+<!-- CUSTOM HTML START -->
+
+<body>
+
+
+    <!-- 1. Loading -->
+
+    <div class="loading">
+        <div class="box-loading"></div>
+    </div>
+
+
+    <!-- 2. Subscribe Form -->
+
+    <div id="somedialog" class="dialog">
+        <div class="dialog__overlay"></div>
+        <div class="dialog__content">
+            <h4 class="upper-case weight-600 margin0 center-align letter-spacing-2">Subscribe to newsletter</h4>
+            <p class="font-first center-align">Do you like to be informed everytime when something happens? Once per month, only the best.</p>
+
+            <form id='subscribe' method='post' class="padding0 col-xs-12">
+                <input type="text" class="subscribe-input center-align col-md-8 col-xs-12" name="subscribe-email" id="subscribe-email" placeholder=" Click to enter your email..." spellcheck="false" />
+                <button type="submit" id="signup-button" class="subscribe-button background-dark-style color-white col-xs-12 col-md-4 padding0">NOTIFY ME</button>
+                <label for="subscribe-email" class="subscribe-message"></label>
+            </form>
+            <button type="button" class="action modal-close" data-dialog-close><i class="ion-ios-close-empty"></i></button>
+        </div>
+    </div>
+
+
+    <!-- 3. Main Container -->
+
+    <div class="hover-background" id="hover-background"></div>
+
+    <div class="container-fluid main-container split-container">
+        <div class="hover"></div>
+        <div class="raw">
+            <div class="col-xs-12 col-lg-6 image-background-black"></div>
+            <div class="col-xs-12 col-lg-6 main-content center-align background-black-style" id="main-container">
+                <div class="logo logo-split"><img src="img/logo-dark.png" alt="" class="img-responsive"></div>
+                <div class="content-wrapper">
+                    <h1 class="main-header weight-300 color-white">We are coming soon</h1>
+                    <p class="main-paragraph color-white">Any time we start something new it is exciting and we are very motivated and committed. As time goes by, however, the burst of enthusiasm can wane as the reality of how much work is going to be involved kicks</p>
+                    <button class="notify-me notify-style-3 trigger" data-dialog="somedialog">Notify me</button>
+                    <button class="more more-style-3 hidden-xs hidden-sm" id="more-button">Read More</button>
+                </div>
+                <div class="social-section">
+                    <ul>
+                        <li><a href="" target="_blank"><i class="fa fa-fw fa-twitter"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa fa-fw fa-facebook"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa fa-vk"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+                        <li><a href="" target="_blank"><i class="fa fa-fw fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 4. More Info Container -->
+
+    <div class="close" id="close-button"><i class="ion-ios-close-empty"></i></div>
+
+    <div class="container more-info split-more-info" id="more-info">
+
+        <!-- 4.1 Logo Section -->
+        <div class="logo-section">
+            <div class="logo-wrapper">
+                <img src="img/logo.png" alt="" class="img-responsive">
+            </div>
+        </div>
+
+        <div class="raw">
+
+            <!-- 4.2 About Section -->
+
+            <div class="about-section">
+                <div class="col-md-6 about-img"></div>
+                <div class="col-md-6 about-content">
+                    <h4 class="special-header margin-t-0">About Us</h4>
+                    <hr>
+                    <p class="about-text">
+                        Notes are very powerful. They express your thanks, encouragement, sympathy, apology, congratulations, feelings, and requests to others.
+                        <br>
+                        <br> Many people create notes on a computer and print them or send them through the Internet. However, I believe the most effective notes are handwritten. A handwritten note is personal and rare. Due to this, it will be given more attention by the reader and have maximum impact.
+                        <br>
+                        <br> Seen you eyes son show. Far two unaffected one alteration apartments celebrated but middletons interested. Described deficient applauded consisted my me do. Passed edward two talent effect seemed engage six. On ye great do child sorry lived.
+                    </p>
+                </div>
+            </div>
+
+
+            <!-- 4.3 Stats Section -->
+
+            <div class="col-md-12 our-stats">
+                <div class="col-md-4 item-stat">
+                    <i class="ion-ios-clock-outline"></i>
+                    <h4 class="stat-header">12 years in buisiness</h4>
+                </div>
+                <div class="col-md-4 item-stat">
+                    <i class="ion-ios-briefcase-outline"></i>
+                    <h4 class="stat-header">87+ projects</h4>
+                </div>
+                <div class="col-md-4 item-stat">
+                    <i class="ion-ios-people-outline"></i>
+                    <h4 class="stat-header">140+ clients</h4>
+                </div>
+            </div>
+
+
+            <!-- 4.4 Features Section -->
+
+            <div class="features-section">
+                <div class="col-xs-12 padding0">
+                    <div class="col-sm-6 feature-image feature-image-1"></div>
+                    <div class="col-sm-6 feature-text">
+                        <div class="feature-item feature-style-1">
+                            <h4 class="item-header">multipurpose template</h4>
+                            <p class="item-text">Would you like to pop in a CD and have a better quality of life, and even self improvement? There are three ways you can use music to accomplish this. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 padding0">
+                    <div class="col-sm-6 feature-image feature-image-2 not-for-desktop"></div>
+                    <div class="col-sm-6 feature-text">
+                        <div class="feature-item feature-style-2">
+                            <i class="ion-ios-gear-outline"></i>
+                            <h4 class="item-header">multipurpose template</h4>
+                            <p class="item-text">Would you like to pop in a CD and have a better quality of life, and even self improvement? There are three ways you can use music to accomplish this. </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 feature-image feature-image-2 not-for-mobile"></div>
+                </div>
+
+                <div class="col-xs-12 padding0">
+                    <div class="col-sm-6 feature-image feature-image-3"></div>
+                    <div class="col-sm-6 feature-text">
+                        <div class="feature-item feature-style-3">
+                            <div class="icon-wrapper"><i class="ion-ios-gear-outline"></i></div>
+                            <div class="text-wrapper">
+                                <h4 class="item-header">multipurpose template</h4>
+                                <p class="item-text">Would you like to pop in a CD and have a better quality of life, and even self improvement? There are three ways you can use music to accomplish this. </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xs-12 padding0">
+                    <div class="col-sm-6 feature-image feature-image-4 not-for-desktop"></div>
+                    <div class="col-sm-6 feature-text">
+                        <div class="feature-item feature-style-4">
+                            <div class="icon-wrapper"><i class="ion-ios-gear-outline"></i></div>
+                            <div class="text-wrapper">
+                                <h4 class="item-header">multipurpose template</h4>
+                                <p class="item-text">Would you like to pop in a CD and have a better quality of life, and even self improvement? There are three ways you can use music to accomplish this. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 feature-image feature-image-4 not-for-mobile"></div>
+                </div>
+            </div>
+
+
+            <!-- 4.5 Quotation Section -->
+
+            <div class="quote-section">
+                <p class="quote-sign">”</p>
+                <p class="quote">At about this time of year, some months after New Year’s resolutions have been made and kept, or made and neglected</p>
+                <p class="quote-author">john corob</p>
+            </div>
+
+
+            <!-- 4.6 Portfolio Section -->
+
+            <div class="portfolio-section">
+                <div class="line">
+                    <hr>
+                </div>
+                <h4 class="portfolio-header special-header">Our Portfolio</h4>
+                <p class="portfolio-subtext">If you find yourself doing the same routine day after day, never remembering</p>
+                <div class="container portfolio">
+                    <div class="raw">
+
+                        <div class="my-gallery" itemscope itemtype="http://schema.org/ImageGallery">
+
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-sm-6 col-md-6 col-lg-4">
+                                <a href="img/1.png" itemprop="contentUrl" data-size="1200x1000">
+                                    <img src="img/1-t.png" itemprop="thumbnail" alt="Image description" />
+                                </a>
+                                <div class="pf-description">
+                                    <h4 class="description-hd">Fashion Design</h4>
+                                    <div class="divider"></div>
+                                    <p class="description-text">The design is minimal with a combination of luxury and modernity to highlight products.</p>
+                                </div>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-sm-6 col-md-6 col-lg-4">
+                                <a href="img/2.png" itemprop="contentUrl" data-size="1200x1000">
+                                    <img src="img/2-t.png" itemprop="thumbnail" alt="Image description" />
+                                </a>
+                                <div class="pf-description">
+                                    <h4 class="description-hd">Website</h4>
+                                    <div class="divider"></div>
+                                    <p class="description-text">This project comprises the gastronomic e-commerce definition.</p>
+                                </div>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-sm-6 col-md-6 col-lg-4">
+                                <a href="img/3.png" itemprop="contentUrl" data-size="1200x1000">
+                                    <img src="img/3-t.png" itemprop="thumbnail" alt="Image description" />
+                                </a>
+                                <div class="pf-description">
+                                    <h4 class="description-hd">Branding</h4>
+                                    <div class="divider"></div>
+                                    <p class="description-text">This project comprises the gastronomic e-commerce definition.</p>
+                                </div>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-sm-6 col-md-6 col-lg-4">
+                                <a href="img/4.png" itemprop="contentUrl" data-size="1200x1000">
+                                    <img src="img/4-t.png" itemprop="thumbnail" alt="Image description" />
+                                </a>
+                                <div class="pf-description">
+                                    <h4 class="description-hd">Print design</h4>
+                                    <div class="divider"></div>
+                                    <p class="description-text">This project comprises the gastronomic e-commerce definition.</p>
+                                </div>
+                            </figure>
+
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-sm-6 col-md-6 col-lg-4">
+                                <a href="img/5.png" itemprop="contentUrl" data-size="1200x1000">
+                                    <img src="img/5-t.png" itemprop="thumbnail" alt="Image description" />
+                                </a>
+                                <div class="pf-description">
+                                    <h4 class="description-hd">Ecommerce</h4>
+                                    <div class="divider"></div>
+                                    <p class="description-text">Design Beats is a weekly digital publication that offers readers worldwide a selection.</p>
+                                </div>
+                            </figure>
+                            <figure itemprop="associatedMedia" itemscope itemtype="http://schema.org/ImageObject" class="col-sm-6 col-md-6 col-lg-4">
+                                <a href="img/6.png" itemprop="contentUrl" data-size="1200x1000">
+                                    <img src="img/6-t.png" itemprop="thumbnail" alt="Image description" />
+                                </a>
+                                <div class="pf-description">
+                                    <h4 class="description-hd">Photography</h4>
+                                    <div class="divider"></div>
+                                    <p class="description-text">Design Beats is a weekly digital publication that offers readers worldwide a selection.</p>
+                                </div>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- 4.7 Contact Section -->
+
+            <div class="contact-section">
+                <div class="col-md-1 line">
+                    <hr>
+                </div>
+                <div class="col-md-10">
+                    <h4 class="special-header center-align special-margin">Our Contacts</h4>
+                    <p class="contact-subtext">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        <br>Eius illum asperiores veniam sunt mollitia soluta.</p>
+                </div>
+                <div class="col-md-1 line">
+                    <hr>
+                </div>
+
+                <div class="col-md-6 contact-data">
+                    <p><span class="contact-sign">A:</span> 720 Torphy Stravenue Apt. 92</p>
+                    <p><span class="contact-sign">P:</span> +123 332 23 32</p>
+                    <p><span class="contact-sign">E:</span> imperia@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <form id='ajax-contact-form' name='contact-form' method='POST' data-name='Contact Form'>
+                        <input type='hidden' name='form-name' value='contact-form' />
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                                <div class="form-group">
+                                    <label for="name" class="padding0">Name</label>
+                                    <input id="name" class="form form-control" placeholder="" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" name="name" data-name="Name" type="text">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-lg-12">
+                                <div class="form-group">
+                                    <label for="email" class="padding0">Email</label>
+                                    <input id="email" class="form form-control" placeholder="" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" name="email" data-name="email" type="email">
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-12 col-lg-12 no-padding">
+                                <div class="form-group">
+                                    <label for="msg" class="padding0">Message</label>
+                                    <textarea name="msg" id="msg" class="form textarea form-control" placeholder="" onfocus="this.placeholder = ''" onblur="this.placeholder = ''" data-name="Text Area" required=""></textarea>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" id="valid-form" class="btn btn-color">SEND</button>
+                        <div id="note"></div>
+                    </form>
+                </div>
+            </div>
+
+
+            <!-- 4.8 Google Maps Section -->
+
+            <div id="google-container"></div>
+            <div id="zoom-in"></div>
+            <div id="zoom-out"></div>
+
+
+            <!-- 4.9 Footer Section -->
+
+            <div class="footer-section">
+                <ul>
+                    <li><a href="#">Behance</a></li>
+                    <li><a href="#">Dribbble</a></li>
+                    <li><a href="#">Github</a></li>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+                <p class="copyright">2016 &copy; ThemeImperia</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. More Info Container ends -->
+
+    <!-- Root element of PhotoSwipe. Must have class pswp. -->
+    <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+        <!-- Background of PhotoSwipe. 
+         It's a separate element, as animating opacity is faster than rgba(). -->
+        <div class="pswp__bg"></div>
+        <!-- Slides wrapper with overflow:hidden. -->
+        <div class="pswp__scroll-wrap">
+            <!-- Container that holds slides. PhotoSwipe keeps only 3 slides in DOM to save memory. -->
+            <!-- don't modify these 3 pswp__item elements, data is added later on. -->
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+            <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <!--  Controls are self-explanatory. Order can be changed. -->
+                    <div class="pswp__counter"></div>
+                    <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                    <button class="pswp__button pswp__button--share" title="Share"></button>
+                    <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                    <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                    <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                    <!-- element will get class pswp__preloader--active when preloader is running -->
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div>
+                <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+                </button>
+                <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+                </button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Javascript -->
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.js"></script>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6f76JexmM4HV0b6UOgktU07Tz9MAoCes"></script>
+
+
+</body>
+
+</html>
